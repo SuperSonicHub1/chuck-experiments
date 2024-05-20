@@ -1,5 +1,5 @@
 // Sample-based instrument designed for live group play.
-// Created in late 2023, refined significantly through
+// Created in spring 2024, refined significantly through
 // FaMLE (21M.470) in Q4 2023-24. 
 
 // Effects for the box.

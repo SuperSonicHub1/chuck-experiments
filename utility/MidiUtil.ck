@@ -1,8 +1,11 @@
 // Tools for parsing ChucK's MidiMsgs
 // Very useful MIDI in ChucK reference:
 // https://chuck.stanford.edu/doc/examples/midi/midiout.ck
-// TODO: Create utility functions for mapping CC, pitchbend
 public class MidiUtil {
+    fun static int getChannel(MidiMsg msg) {
+        return msg.data1 & 0x0f;
+    }
+    
     fun static int isNoteOff(MidiMsg msg) {
         return (msg.data1 & 0xf0) == 0x80;
     }

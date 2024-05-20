@@ -10,6 +10,7 @@ Machine.add(me.dir() + "instruments/init.ck");
 me.yield();
 
 
+// Machine.add(me.dir() + "apps/theremin.ck");
 // NOTES TO SELF:
 // - Clear pads in between playing sessions
 // - If loop mode doesn't seem to be working, turn off the arp.

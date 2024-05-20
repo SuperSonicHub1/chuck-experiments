@@ -1,6 +1,7 @@
 MidiIn input;
-// Access MPKmini2
-if(!input.open("MPKmini2")) me.exit();
+// Access input
+if(!input.open("Amenbox")) me.exit();
+// if(!input.open("MPKmini2")) me.exit();
 
 MidiIn clockIn;
 // Access clock
